@@ -1,0 +1,15 @@
+#icon {
+  font-size: 25px;
+}
+#icon :hover {
+  font-size: 30px;
+}
+
+footer {
+  padding-bottom: 0%;
+}
+
+.text {
+  font-family: "KBFG Text";
+  color: #858796;
+}

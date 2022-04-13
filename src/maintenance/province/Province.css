@@ -1,0 +1,45 @@
+.btn-min-width {
+    min-width: 70px;
+}
+
+.label-bold {
+    font-weight: bold;
+}
+
+.label-mandatory {
+    color: gray;    
+}
+
+.label-white {
+    color: white;
+}
+
+
+.row-highlight {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .margin-top-rem-1 {
+      margin-top: 1rem;
+  }
+
+  .bg-ginger {
+    background-color: rgb(255, 188, 0);
+}
+
+.btn-brown {
+    background-color: rgb(96, 88, 76);
+}
+
+
+.province-searching-criteria {
+    padding: calc(0.25rem - 1px) calc(2rem - 1px);
+    border-radius: 1rem;
+    border-color: #000;
+    border-style: solid;
+    background-color: rgb(96, 88, 76);
+    color: white;
+    font-size: 0.8rem;
+    display: block;
+  }

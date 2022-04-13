@@ -1,0 +1,57 @@
+.bg-shadow-dark {
+  background-color: rgb(96, 88, 76);
+  border-radius: calc(0.3rem - 1px);
+  text-align: center;
+  display: inline-block;
+  font-size: 25px !important;
+}
+.radio-column {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.bg-shadow-ginger {
+  background-color: rgb(255, 188, 0);
+}
+.radio-item {
+  font-size: 0.9rem;
+}
+.btn-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.country-searching-criteria {
+  padding: calc(0.25rem - 1px) calc(2rem - 1px);
+  border-radius: 1rem;
+  border-color: #000;
+  border-style: solid;
+  background-color: rgb(96, 88, 76);
+  color: white;
+  font-size: 0.8rem;
+  display: block;
+}
+.text-searching {
+  width: 30%;
+  font-size: 0.85rem;
+}
+@media (min-width: 300px) {
+  .text-searching {
+    width: 90%;
+  }
+}
+@media (min-width: 576px) {
+  .text-searching {
+    width: 55%;
+  }
+}
+@media (min-width: 768px) {
+  .text-searching {
+    width: 50%;
+  }
+}
+@media (min-width: 992px) {
+  .text-searching {
+    width: 30%;
+  }
+}
